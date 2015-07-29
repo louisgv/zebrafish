@@ -22,7 +22,7 @@
 }
 
 .circle-container img { display: block; width: 100%; }
-.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
+.deg0 { transform: translate(12em); }
 .deg30 { transform: rotate(30deg) translate(12em) rotate(-30deg); }
 .deg60 { transform: rotate(60deg) translate(12em) rotate(-60deg); }
 .deg90 { transform: rotate(90deg) translate(12em) rotate(-90deg); }
