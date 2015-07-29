@@ -1,74 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Example of Bootstrap 3 Modals</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/script.js">
 
-</script>
+<head>
+	<meta charset="UTF-8">
+	<title>Example of Bootstrap 3 Modals</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/script.js">
+	</script>
 </head>
+
 <body>
 	<!-- Trigger the modal with a button -->
 	<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal1">Open Modal</button>
 	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal2">Open Modal</button> -->
 	<!-- content to be placed inside <body>…</body> -->
-<div class='circle-container'>
-	<a href='#' class='center'><img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2003-28-a-thumb.jpg' data-toggle="modal" data-target="#Modal1"></a>
-	<a href='#' class='deg0'><img src='http://imgsrc.hubblesite.org/hu/db/images/hs-1994-02-c-thumb.jpg'></a>
-	<a href='#' class='deg45'><img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2005-37-a-thumb.jpg'></a>
-	<a href='#' class='deg135'><img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2010-26-a-thumb.jpg'></a>
-	<a href='#' class='deg180'><img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2004-27-a-thumb.jpg'></a>
-	<a href='#' class='deg225'><img src='http://imgsrc.hubblesite.org/hu/db/images/hs-1992-17-a-thumb.jpg'></a>
-	<a href='#' class='deg315'><img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2004-32-d-thumb.jpg'></a>
-</div>
-
-	<!-- Modal -->
-	<div id="Modal1" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-
-	    <!-- Modal content-->
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal">&times;</button>
-	        <h4 class="modal-title">Modal Header</h4>
-	      </div>
-	      <div class="modal-body">
-	        <p>Some text in the modal.</p>
-					<img src="http://cdn.smosh.com/sites/default/files/ftpuploads/bloguploads/0913/harry-potter-memes-potter-lookin-fine.jpg" alt="" style="height: 200px; width: 200px; margin: 0 auto"/>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      </div>
-	    </div>
-
-	  </div>
+	<div class='circle-container'>
+		<a href='#' class='deg0'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-1994-02-c-thumb.jpg' data-toggle="modal" data-target="#m0">
+		</a>
+		<a href='#' class='deg30'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2005-37-a-thumb.jpg'>
+		</a>
+		<a href='#' class='deg60'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2010-26-a-thumb.jpg'>
+		</a>
+		<a href='#' class='deg90'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2004-27-a-thumb.jpg'>
+		</a>
+		<a href='#' class='deg120'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-1992-17-a-thumb.jpg'>
+		</a>
+		<a href='#' class='deg150'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2004-32-d-thumb.jpg'>
+		</a>
+		<a href='#' class='deg180'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2005-37-a-thumb.jpg'>
+		</a>
+		<a href='#' class='deg210'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2010-26-a-thumb.jpg'>
+		</a>
+		<a href='#' class='deg240'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2004-27-a-thumb.jpg'>
+		</a>
+		<a href='#' class='deg270'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-1992-17-a-thumb.jpg'>
+		</a>
+		<a href='#' class='deg300'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-2004-32-d-thumb.jpg'>
+		</a>
+		<a href='#' class='deg330'>
+			<img src='http://imgsrc.hubblesite.org/hu/db/images/hs-1994-02-c-thumb.jpg'>
+		</a>
 	</div>
 
 	<!-- Modal -->
-	<div id="Modal2" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
+	<div id="m0" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Modal Header</h4>
+				</div>
+				<div class="modal-body">
+					<p>Sinking into your emotions can seem scary at first, but once you get the hang of opening up to others, you might recognize the benefits. In fact, you may even wonder what took you so long to see the damn mayonnoise.</p>
+					<img src="" alt="" />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-	    <!-- Modal content-->
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal">&times;</button>
-	        <h4 class="modal-title">Modal Header</h4>
-	      </div>
-	      <div class="modal-body">
-	        <p>Testing second!</p>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      </div>
-	    </div>
-
-	  </div>
+	<!-- Modal -->
+	<div id="m2" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Modal Header</h4>
+				</div>
+				<div class="modal-body">
+					<p>When your lover starts wearing more clothes to bed than to work, it's a good guess that your happiness is close to being over. You might as well yell: "MA! MEATLOAF! SANDWHICH!"</p>
+					<img src="" alt="" />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </body>
+
 </html>
