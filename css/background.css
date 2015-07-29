@@ -1,7 +1,9 @@
-html body {
-  background: url(http://imgsrc.hubblesite.org/hu/db/images/hs-2003-28-a-thumb.jpg) no-repeat center center fixed;
+html body{
+  background: url(http://feelgrafix.com/data_images/out/11/852857-milky-way-galaxy-wallpaper.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
